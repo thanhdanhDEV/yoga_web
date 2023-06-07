@@ -1,3 +1,5 @@
+{% load static %}
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -16,13 +18,13 @@
         <!-- CSS Libraries -->
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-        <link href="lib/animate/animate.min.css" rel="stylesheet">
-        <link href="lib/flaticon/font/flaticon.css" rel="stylesheet"> 
-        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+        <link href="{% static 'lib/animate/animate.min.css' %}" rel="stylesheet">
+        <link href="{% static 'lib/flaticon/font/flaticon.css' %}" rel="stylesheet"> 
+        <link href="{% static 'lib/owlcarousel/assets/owl.carousel.min.css' %}" rel="stylesheet">
+        <link href="{% static 'lib/lightbox/css/lightbox.min.css' %}" rel="stylesheet">
 
         <!-- Template Stylesheet -->
-        <link href="css/style.css" rel="stylesheet">
+        <link href="{% static 'css/style.css' %}" rel="stylesheet">
     </head>
 
     <body>
@@ -109,7 +111,7 @@
                     </div>
                     <div class="col-sm-12 col-md-6">
                         <div class="hero-image">
-                            <img src="img/hero.png" alt="Hero Image">
+                            <img src="{% static 'img/hero.png' %}" alt="Hero Image">
                         </div>
                     </div>
                 </div>
@@ -124,7 +126,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-5 col-md-6">
                         <div class="about-img">
-                            <img src="img/about.png" alt="Image">
+                            <img src="{% static 'img/about.png' %}" alt="Image">
                         </div>
                     </div>
                     <div class="col-lg-7 col-md-6">
@@ -249,11 +251,11 @@
                     <div class="col-lg-4 col-md-6 col-sm-12 class-item filter-1 wow fadeInUp" data-wow-delay="0.0s">
                         <div class="class-wrap">
                             <div class="class-img">
-                                <img src="img/class-1.jpg" alt="Image">
+                                <img src="{% static 'img/class-1.jpg' %}" alt="Image">
                             </div>
                             <div class="class-text">
                                 <div class="class-teacher">
-                                    <img src="img/teacher-1.png" alt="Image">
+                                    <img src="{% static 'img/teacher-1.png' %}" alt="Image">
                                     <h3>Elise Moran</h3>
                                     <a href="">+</a>
                                 </div>
@@ -268,11 +270,11 @@
                     <div class="col-lg-4 col-md-6 col-sm-12 class-item filter-2 wow fadeInUp" data-wow-delay="0.2s">
                         <div class="class-wrap">
                             <div class="class-img">
-                                <img src="img/class-2.jpg" alt="Image">
+                                <img src="{% static 'img/class-2.jpg' %}" alt="Image">
                             </div>
                             <div class="class-text">
                                 <div class="class-teacher">
-                                    <img src="img/teacher-2.png" alt="Image">
+                                    <img src="{% static 'img/teacher-2.png' %}" alt="Image">
                                     <h3>Kate Glover</h3>
                                     <a href="">+</a>
                                 </div>
@@ -287,11 +289,11 @@
                     <div class="col-lg-4 col-md-6 col-sm-12 class-item filter-3 wow fadeInUp" data-wow-delay="0.4s">
                         <div class="class-wrap">
                             <div class="class-img">
-                                <img src="img/class-3.jpg" alt="Image">
+                                <img src="{% static 'img/class-3.jpg' %}" alt="Image">
                             </div>
                             <div class="class-text">
                                 <div class="class-teacher">
-                                    <img src="img/teacher-3.png" alt="Image">
+                                    <img src="{% static 'img/teacher-3.png' %}" alt="Image">
                                     <h3>Elina Ekman</h3>
                                     <a href="">+</a>
                                 </div>
@@ -306,11 +308,11 @@
                     <div class="col-lg-4 col-md-6 col-sm-12 class-item filter-1 wow fadeInUp" data-wow-delay="0.6s">
                         <div class="class-wrap">
                             <div class="class-img">
-                                <img src="img/class-4.jpg" alt="Image">
+                                <img src="{% static 'img/class-4.jpg' %}" alt="Image">
                             </div>
                             <div class="class-text">
                                 <div class="class-teacher">
-                                    <img src="img/teacher-4.png" alt="Image">
+                                    <img src="{% static 'img/teacher-4.png' %}" alt="Image">
                                     <h3>Lilly Fry</h3>
                                     <a href="">+</a>
                                 </div>
@@ -325,11 +327,11 @@
                     <div class="col-lg-4 col-md-6 col-sm-12 class-item filter-2 wow fadeInUp" data-wow-delay="0.8s">
                         <div class="class-wrap">
                             <div class="class-img">
-                                <img src="img/class-5.jpg" alt="Image">
+                                <img src="{% static 'img/class-5.jpg' %}" alt="Image">
                             </div>
                             <div class="class-text">
                                 <div class="class-teacher">
-                                    <img src="img/teacher-5.png" alt="Image">
+                                    <img src="{% static 'img/teacher-5.png' %}" alt="Image">
                                     <h3>Olivia Yates</h3>
                                     <a href="">+</a>
                                 </div>
@@ -344,11 +346,11 @@
                     <div class="col-lg-4 col-md-6 col-sm-12 class-item filter-3 wow fadeInUp" data-wow-delay="1s">
                         <div class="class-wrap">
                             <div class="class-img">
-                                <img src="img/class-6.jpg" alt="Image">
+                                <img src="{% static 'img/class-6.jpg' %}" alt="Image">
                             </div>
                             <div class="class-text">
                                 <div class="class-teacher">
-                                    <img src="img/teacher-6.png" alt="Image">
+                                    <img src="{% static 'img/teacher-6.png' %}" alt="Image">
                                     <h3>Millie Harper</h3>
                                     <a href="">+</a>
                                 </div>
@@ -492,7 +494,7 @@
                 <div class="owl-carousel testimonials-carousel">
                     <div class="testimonial-item">
                         <div class="testimonial-img">
-                            <img src="img/testimonial-1.jpg" alt="Image">
+                            <img src="{% static 'img/testimonial-1.jpg' %}" alt="Image">
                         </div>
                         <div class="testimonial-text">
                             <p>
@@ -504,7 +506,7 @@
                     </div>
                     <div class="testimonial-item">
                         <div class="testimonial-img">
-                            <img src="img/testimonial-2.jpg" alt="Image">
+                            <img src="{% static 'img/testimonial-2.jpg' %}" alt="Image">
                         </div>
                         <div class="testimonial-text">
                             <p>
@@ -516,7 +518,7 @@
                     </div>
                     <div class="testimonial-item">
                         <div class="testimonial-img">
-                            <img src="img/testimonial-3.jpg" alt="Image">
+                            <img src="{% static 'img/testimonial-3.jpg' %}" alt="Image">
                         </div>
                         <div class="testimonial-text">
                             <p>
@@ -528,7 +530,7 @@
                     </div>
                     <div class="testimonial-item">
                         <div class="testimonial-img">
-                            <img src="img/testimonial-4.jpg" alt="Image">
+                            <img src="{% static 'img/testimonial-4.jpg' %}" alt="Image">
                         </div>
                         <div class="testimonial-text">
                             <p>
@@ -555,7 +557,7 @@
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.0s">
                         <div class="team-item">
                             <div class="team-img">
-                                <img src="img/team-1.jpg" alt="Image">
+                                <img src="{% static 'img/team-1.jpg' %}" alt="Image">
                                 <div class="team-social">
                                     <a href=""><i class="fab fa-twitter"></i></a>
                                     <a href=""><i class="fab fa-facebook-f"></i></a>
@@ -572,7 +574,7 @@
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
                         <div class="team-item">
                             <div class="team-img">
-                                <img src="img/team-2.jpg" alt="Image">
+                                <img src="{% static 'img/team-2.jpg' %}" alt="Image">
                                 <div class="team-social">
                                     <a href=""><i class="fab fa-twitter"></i></a>
                                     <a href=""><i class="fab fa-facebook-f"></i></a>
@@ -589,7 +591,7 @@
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
                         <div class="team-item">
                             <div class="team-img">
-                                <img src="img/team-3.jpg" alt="Image">
+                                <img src="{% static 'img/team-3.jpg' %}" alt="Image">
                                 <div class="team-social">
                                     <a href=""><i class="fab fa-twitter"></i></a>
                                     <a href=""><i class="fab fa-facebook-f"></i></a>
@@ -606,7 +608,7 @@
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
                         <div class="team-item">
                             <div class="team-img">
-                                <img src="img/team-4.jpg" alt="Image">
+                                <img src="{% static 'img/team-4.jpg' %}" alt="Image">
                                 <div class="team-social">
                                     <a href=""><i class="fab fa-twitter"></i></a>
                                     <a href=""><i class="fab fa-facebook-f"></i></a>
@@ -636,7 +638,7 @@
                 <div class="owl-carousel blog-carousel wow fadeInUp" data-wow-delay="0.1s">
                     <div class="blog-item">
                         <div class="blog-img">
-                            <img src="img/blog-1.jpg" alt="Blog">
+                            <img src="{% static 'img/blog-1.jpg' %}" alt="Blog">
                         </div>
                         <div class="blog-text">
                             <h2>Lorem ipsum dolor</h2>
@@ -653,7 +655,7 @@
                     </div>
                     <div class="blog-item">
                         <div class="blog-img">
-                            <img src="img/blog-2.jpg" alt="Blog">
+                            <img src="{% static 'img/blog-2.jpg' %}" alt="Blog">
                         </div>
                         <div class="blog-text">
                             <h2>Lorem ipsum dolor</h2>
@@ -670,7 +672,7 @@
                     </div>
                     <div class="blog-item">
                         <div class="blog-img">
-                            <img src="img/blog-3.jpg" alt="Blog">
+                            <img src="{% static 'img/blog-3.jpg' %}" alt="Blog">
                         </div>
                         <div class="blog-text">
                             <h2>Lorem ipsum dolor</h2>
@@ -687,7 +689,7 @@
                     </div>
                     <div class="blog-item">
                         <div class="blog-img">
-                            <img src="img/blog-4.jpg" alt="Blog">
+                            <img src="{% static 'img/blog-4.jpg' %}" alt="Blog">
                         </div>
                         <div class="blog-text">
                             <h2>Lorem ipsum dolor</h2>
@@ -704,7 +706,7 @@
                     </div>
                     <div class="blog-item">
                         <div class="blog-img">
-                            <img src="img/blog-5.jpg" alt="Blog">
+                            <img src="{% static 'img/blog-5.jpg' %}" alt="Blog">
                         </div>
                         <div class="blog-text">
                             <h2>Lorem ipsum dolor</h2>
@@ -721,7 +723,7 @@
                     </div>
                     <div class="blog-item">
                         <div class="blog-img">
-                            <img src="img/blog-6.jpg" alt="Blog">
+                            <img src="{% static 'img/blog-6.jpg' %}" alt="Blog">
                         </div>
                         <div class="blog-text">
                             <h2>Lorem ipsum dolor</h2>
@@ -782,17 +784,17 @@
         <!-- JavaScript Libraries -->
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-        <script src="lib/easing/easing.min.js"></script>
-        <script src="lib/wow/wow.min.js"></script>
-        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-        <script src="lib/isotope/isotope.pkgd.min.js"></script>
-        <script src="lib/lightbox/js/lightbox.min.js"></script>
+        <script src="{% static 'lib/easing/easing.min.js' %}"></script>
+        <script src="{% static 'lib/wow/wow.min.js' %}"></script>
+        <script src="{% static 'lib/owlcarousel/owl.carousel.min.js' %}"></script>
+        <script src="{% static 'lib/isotope/isotope.pkgd.min.js' %}"></script>
+        <script src="{% static 'lib/lightbox/js/lightbox.min.js' %}"></script>
         
         <!-- Contact Javascript File -->
-        <script src="mail/jqBootstrapValidation.min.js"></script>
-        <script src="mail/contact.js"></script>
+        <script src="{% static 'mail/jqBootstrapValidation.min.js' %}"></script>
+        <script src="{% static 'mail/contact.js' %}"></script>
 
         <!-- Template Javascript -->
-        <script src="js/main.js"></script>
+        <script src="{% static 'js/main.js' %}"></script>
     </body>
 </html>
